@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ss load</title>
+
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: "Geist", sans-serif;
+        }
+    </style>
+</head>
+
+
+
+
+<body class=" w-[95vw] md:w-[30vw] mx-auto bg-green-100 mb-5 text-[12px] ">
+
+    <header>
+
+    </header>
+
+    <main class="grid grid-cols-13 gap-2.5 mt-6">
+
+        <div class=" input-container   space-y-1 col-span-4 ">
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="BRB" id="brb-amps" />
+
+            </div>
+
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="MRS" id="mrs-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="Mozompur" id="mozompur-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="Housing" id="housing-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="Rajbari" id="rajbari-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="Campus (GIS)" id="gis-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="Koburhat" id="koburhat-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="H-3" id="h3-amps" />
+
+            </div>
+
+            <div
+                class="flex justify-between items-center border border-gray-300 rounded-lg px-2 py-1 focus-within:border-blue-500">
+                <input type="number"
+                    class="flex-1 outline-none placeholder-gray-400 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
+                    placeholder="T-3" id="t3-amps" />
+
+            </div>
+
+
+        </div>
+
+        <div class="feder-container  space-y-1 col-span-5">
+            <h2 class="text-center border  border-gray-300  rounded-lg px-2 py-1">BRB</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">MRS</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">Mozompur</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">Housing</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">Rajbari</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">Campus (GIS)</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">Koburhat</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">H-3</h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1">T-3</h2>
+        </div>
+
+        <div class="output-conntainer  space-y-1 col-span-4">
+            <h2 class="text-center border  border-gray-300  rounded-lg px-2 py-1 flex justify-between "><span
+                    id="brb-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="mrs-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="mozompur-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="housing-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="rajbari-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="gis-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="koburhat-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="h3-out">0</span>
+                <span>MW</span>
+            </h2>
+            <h2 class="text-center border  border-gray-300 rounded-lg px-2 py-1 flex justify-between "><span
+                    id="t3-out">0</span>
+                <span>MW</span>
+            </h2>
+        </div>
+
+        </div>
+    </main>
+    <br>
+    <div class="grid grid-cols-2 gap-5">
+        <div>
+            <h2 class="text-center bg-blue-500 border border-blue-700 py-1 text-white rounded-md"><span>Bottail:</span>
+                <span id="bottail-mw">
+                    0</span> <span>MW</span>
+            </h2>
+        </div>
+
+        <div>
+            <h2 class="text-center bg-blue-500 border border-blue-700 py-1  text-white rounded-md"><span>Total:</span>
+                <span id="total-mw">0</span>
+                <span>MW</span>
+            </h2>
+        </div>
+    </div>
+    <br>
+
+    <div class="grid grid-cols-2 gap-5">
+        <div>
+            <button id="btn-calculate"
+                class="bg-green-500 w-full border  border-green-700 px-2 py-1 rounded-sm text-white">Calculate</button>
+
+        </div>
+        <div>
+            <button id="btn-copy"
+                class="bg-green-500 w-full border border-green-700 px-2 py-1 rounded-sm text-white">Copy
+                Total</button>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
